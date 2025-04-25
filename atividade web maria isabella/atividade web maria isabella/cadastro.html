@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Anime-Leste</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Anime-Leste</h1>
+    </header>
+    <nav>
+    <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="cadastro.html">Cadastro</a> </li>
+        <a href="mailto:maria.honorato@a.unileste.edu.br">Contato</a>
+    
+    </ul>
+</nav>
+  <div class="cadastro">
+  <h2>Cadastro Anime-Leste</h2>
+  <form action="catalogo.html">
+  <div class="formulario">
+    <label for="titulo">Titulo do anime</label>
+    <input type="text" id="titulo" name="titulo" required>
+  </div>
+  <div class="formulario">
+    <label for="episodios">Número de Episódios</label>
+    <input type="number" id="episodios" name="episodios" min="1" required> 
+  </div>
+  <div class="formulario">
+    <label for="sinopse">Sinopse</label>
+    <textarea id="sinopse" name="sinopse" required></textarea>
+  </div>
+  <div class="formulario">
+    <label for="imagem">URL da imagem</label>
+    <input type="url" id="imagem" name="imagem" placeholder="https://" required>
+    <a href="catalogo.html" class="btn">Cadastrar</a>
+</form>
+</body>
+</html>
